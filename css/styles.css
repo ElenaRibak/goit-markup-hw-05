@@ -437,7 +437,7 @@ element.style {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
-  padding-bottom: 30px;
+  padding-bottom: 16px;
 }
 
 /* ------------ customer-------------- */
@@ -731,7 +731,7 @@ element.style {
   color: var(--white-title-color);
   padding: 63px 24px;
   height: 100%;
-  transform: translateY(100%);
+  transform: translateY(101%);
   transition: transform 250ms linear;
 }
 
@@ -790,6 +790,7 @@ element.style {
   background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .is-hidden {
